@@ -2,34 +2,18 @@
   "hooks": {
     "PreToolUse": [
       {
-        "matcher": {
-          "tool": "Write"
-        },
+        "matcher": "Write",
         "hooks": [
           {
             "type": "command",
             "command": "bash -c 'if [[ \"$CLAUDE_FILE_PATH\" == *.py ]] && [[ ! -f \"tests/test_$(basename $CLAUDE_FILE_PATH)\" ]]; then echo \"Warning: No test file found. Consider writing tests first.\"; fi'"
           }
         ]
-      },
-      {
-        "matcher": {
-          "tool": "Bash",
-          "command": "git commit.*"
-        },
-        "hooks": [
-          {
-            "type": "command",
-            "command": "echo 'Committing changes...'"
-          }
-        ]
       }
     ],
     "PostToolUse": [
       {
-        "matcher": {
-          "tool": "Write"
-        },
+        "matcher": "Write",
         "hooks": [
           {
             "type": "command",
