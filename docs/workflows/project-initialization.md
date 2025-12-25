@@ -4,7 +4,7 @@ This document contains the complete workflow for initializing a new project with
 
 ## Trigger Commands
 - `/project`
-- `/create-project`
+- `/project-init`
 - "Start a new project"
 - "Initialize project"
 

@@ -1,0 +1,98 @@
+# Project Status
+
+Last updated: [DATE]
+
+## Current Sprint
+
+**Sprint**: [Sprint number or name]
+**Goal**: [Sprint goal]
+**Duration**: [Start date] - [End date]
+
+## Progress Overview
+
+| Metric | Value |
+|--------|-------|
+| Sprint Progress | 0% |
+| Open Tasks | 0 |
+| In Progress | 0 |
+| Completed | 0 |
+| Blocked | 0 |
+
+## Active Features
+
+### [Feature Name]
+- **Status**: [Not Started | In Progress | Review | Done]
+- **Assignee**: [Agent or person]
+- **Branch**: `feature/[name]`
+- **PR**: [#number or N/A]
+- **Progress**: [0-100]%
+
+#### Tasks
+- [ ] Task 1
+- [ ] Task 2
+- [ ] Task 3
+
+---
+
+## Recently Completed
+
+### [Completed Feature Name]
+- **Completed**: [Date]
+- **PR**: #[number]
+- **Summary**: [Brief description]
+
+---
+
+## Blockers
+
+| Issue | Blocked Item | Owner | Since |
+|-------|--------------|-------|-------|
+| [Description] | [Feature/Task] | [Who] | [Date] |
+
+---
+
+## Upcoming
+
+### Next Sprint
+- [ ] [Planned item 1]
+- [ ] [Planned item 2]
+
+### Backlog Highlights
+- [Important backlog item 1]
+- [Important backlog item 2]
+
+---
+
+## Agent Activity
+
+| Agent | Current Task | Status |
+|-------|--------------|--------|
+| Product Manager | [Task] | [Status] |
+| Solution Architect | [Task] | [Status] |
+| Backend Engineer | [Task] | [Status] |
+| Frontend Engineer | [Task] | [Status] |
+| QA Engineer | [Task] | [Status] |
+| DevOps Engineer | [Task] | [Status] |
+
+---
+
+## Metrics
+
+### Code Quality
+- Test Coverage: [X]%
+- Open Issues: [X]
+- Technical Debt: [Low | Medium | High]
+
+### Velocity
+- Last Sprint: [X] points
+- Average: [X] points
+
+---
+
+## Notes
+
+[Any important notes or updates]
+
+---
+
+*This file is automatically updated by the Multi-Agent Squad system.*

@@ -1,0 +1,104 @@
+# Project Configuration
+
+This file defines your project for the Multi-Agent Squad orchestration system.
+
+## Project Overview
+
+**Name**: [Your Project Name]
+**Description**: [Brief description of what you're building]
+**Type**: [web-app | api | library | mobile-app | cli | other]
+
+## Team
+
+**Owner**: [Your name or team]
+**Size**: [solo | small (2-5) | medium (6-15) | large (15+)]
+
+## Technology Stack
+
+### Languages
+- [Primary language, e.g., TypeScript]
+- [Secondary language, if any]
+
+### Frameworks
+- [e.g., React, Express, Django]
+
+### Database
+- [e.g., PostgreSQL, MongoDB, None]
+
+### Infrastructure
+- [e.g., AWS, Vercel, Docker]
+
+## Repository Structure
+
+```
+project/
+  [Describe your folder structure]
+```
+
+## Development Workflow
+
+### Branching Strategy
+- **main**: Production-ready code
+- **develop**: Integration branch (optional)
+- **feature/***: New features
+- **fix/***: Bug fixes
+
+### Code Review
+- Required reviewers: [number]
+- Auto-merge: [yes | no]
+
+### Testing Requirements
+- Minimum coverage: [percentage]%
+- Required test types: [unit | integration | e2e]
+
+## Integrations
+
+### Issue Tracking
+- [ ] GitHub Issues
+- [ ] Jira
+- [ ] Linear
+- [ ] Other: [specify]
+
+### Communication
+- [ ] Slack
+- [ ] Discord
+- [ ] Email
+- [ ] None
+
+### CI/CD
+- [ ] GitHub Actions
+- [ ] GitLab CI
+- [ ] Jenkins
+- [ ] Other: [specify]
+
+## Agents Needed
+
+Select the agents you want for your project:
+
+### Core (Recommended)
+- [x] Product Manager
+- [x] Solution Architect
+- [x] Senior Backend Engineer
+- [x] Senior Frontend Engineer
+- [x] QA Engineer
+- [x] DevOps Engineer
+
+### Specialized (As needed)
+- [ ] Mobile Developer
+- [ ] Data Engineer
+- [ ] ML Engineer
+- [ ] Security Engineer
+- [ ] Technical Writer
+- [ ] Custom: [specify]
+
+## Quality Gates
+
+- [ ] All tests must pass
+- [ ] Code coverage >= [percentage]%
+- [ ] No critical security issues
+- [ ] Linting passes
+- [ ] Build succeeds
+
+## Notes
+
+[Any additional notes about your project]

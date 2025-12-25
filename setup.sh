@@ -32,21 +32,21 @@ if [ ! -f "PROJECT.md" ]; then
     echo
     echo "Next steps:"
     echo "1. Edit PROJECT.md with your project details"
-    echo "2. Run: python scripts/generate-agents.py"
+    echo "2. Run: python scripts/generate-hooks.py"
 else
     echo "✓ PROJECT.md exists"
 fi
 
 # Make scripts executable
-chmod +x scripts/generate-agents.py 2>/dev/null || true
+chmod +x scripts/generate-hooks.py 2>/dev/null || true
 
 echo
 echo "Setup complete!"
 echo
-echo "To generate agents for your project:"
+echo "To generate hooks for your project:"
 echo "1. Edit PROJECT.md with your project information"
-echo "2. Run: python scripts/generate-agents.py"
-echo "3. Find your agents in .claude/agents/"
+echo "2. Run: python scripts/generate-hooks.py"
+echo "3. Find your hooks in .claude/hooks/"
 echo
 echo "For more information, see:"
 echo "- README.md for overview"
